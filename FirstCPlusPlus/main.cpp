@@ -8,9 +8,10 @@
 
 #include <iostream>
 
+
 using namespace std;
 
-int main()
+int helloWorld()
 {
     // insert code here...
     cout << "Hello, World! What is your name?" << endl;
