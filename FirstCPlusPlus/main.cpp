@@ -15,7 +15,8 @@ int main()
     // insert code here...
     cout << "Hello, World! What is your name?" << endl;
     string word;
-    cin >> word;
+    getline(cin, word);
+    //cin >> word;
     cout << "Hello " << word << endl;
     
     
