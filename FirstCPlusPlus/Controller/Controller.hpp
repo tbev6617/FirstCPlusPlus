@@ -10,9 +10,12 @@
 #define Controller_hpp
 
 #include <iostream>
+using namespace std;
 
 class Controller
 {
+private:
+    string name;
 public:
     Controller();
     void start();

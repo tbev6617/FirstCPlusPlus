@@ -8,19 +8,19 @@
 
 #include "Controller.hpp"
 
-using namespace std;
-
 Controller :: Controller()
 {
-    cout << "I am in the constructor" << endl;
-    for (int i = 0; i < 100; i++)
-    {
-        cout << i << endl;
-    }
+    string name = "Tyler Bevan";
 }
 
 
 void Controller :: start()
 {
-    cout << "I am in the start method" << endl;
+    cout << "My name is" << name << endl;
+    for (int i = 13; i <= 31; i++)
+    {
+        cout << i << " ";
+    }
+    cout << endl << "The address of my variable is " << "TODO: INSERT ADDRESS" << endl;
+    cout << "Also I, " << name << " am the master of programming and I, " << name << " understand C++" << endl;
 }

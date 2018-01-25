@@ -46,9 +46,9 @@
 		0812A7462017917A003AFC5C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0812A74D20179205003AFC5C /* Runner.cpp */,
 				0812A74A201791ED003AFC5C /* Controller.cpp */,
 				0812A74B201791ED003AFC5C /* Controller.hpp */,
+				0812A74D20179205003AFC5C /* Runner.cpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

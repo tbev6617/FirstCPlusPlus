@@ -11,11 +11,8 @@
 
 int main()
 {
-    Controller * app = new Controller();
-    
-    (*app).start();
-    
-    app -> start();
+    Controller app;
+    app.start();
     
     return 0;
 }
