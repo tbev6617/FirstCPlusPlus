@@ -13,6 +13,10 @@ using namespace std;
 Controller :: Controller()
 {
     cout << "I am in the constructor" << endl;
+    for (int i = 0; i < 100; i++)
+    {
+        cout << i << endl;
+    }
 }
 
 
